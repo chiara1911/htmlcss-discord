@@ -9,3 +9,8 @@
 	--color-bg-black: #23272a;
 	--color-blue-word: #7289da;
 }
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+    background-color: orange;
+}
