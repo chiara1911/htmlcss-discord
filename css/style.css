@@ -56,6 +56,16 @@ header{
     background-color: var(--color-color-white);
     color: black;
 }
+.hero{
+    color: white;
+    text-align: center;
+  align-content: space-evenly;
+  margin: 0 auto;
+  width: 300px;
+ 
+
+   
+}
 /* main */
 main section{
     padding: 60px 0;
