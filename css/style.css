@@ -22,8 +22,26 @@ body{
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 30px 5px;
 }
+.d-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+a, a:hover{
+    text-decoration: none;
+}
+a{
+    color:var(--color-color-white);
+    padding: 7px;
+}
+ul{
+    list-style: none;
+}
+
 /*header*/
 header{
     background-image: url(../img/jumbo.png);
@@ -32,16 +50,20 @@ header{
     background-repeat: no repeat;
     height: 400px;
 }
-
-a, a:hover{
-    text-decoration: none;
-
+.false-button{
+    border: solid black 2px;
+    border-radius: 20px;
+    background-color: var(--color-color-white);
+    color: black;
 }
-a{
-    color:var(--color-color-white)
-}
-
 /* main */
+main section{
+    padding: 60px 0;
+}
+
+.bg-grey{
+    background-color: grey;
+}
 
 /* footer */
 footer{
