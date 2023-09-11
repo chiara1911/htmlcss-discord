@@ -13,4 +13,12 @@
 body{
     font-family: 'Noto Sans', sans-serif;
     background-color: orange;
+    max-width: 1200px;
 }
+
+.debug{
+    border: solid 3px black;
+}
+
+
+
