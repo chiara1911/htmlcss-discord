@@ -23,6 +23,7 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     padding: 30px 5px;
+  
 }
 .d-flex{
     display: flex;
@@ -30,13 +31,16 @@ body{
     justify-content: space-between;
     align-items: center;
     align-content: center;
+    margin: 0 auto;
 }
 a, a:hover{
     text-decoration: none;
+    
 }
 a{
     color:var(--color-color-white);
     padding: 7px;
+   
 }
 ul{
     list-style: none;
@@ -54,21 +58,38 @@ header{
     border: solid black 2px;
     border-radius: 20px;
     background-color: var(--color-color-white);
-    color: black;
+    color: var(--color-bg-black);
 }
 .hero{
-    color: white;
-    text-align: center;
-  align-content: space-evenly;
-  margin: 0 auto;
+   margin: 0 auto;
   width: 300px;
- 
+  color: white;
+  text-align: center;
+  align-content:space-evenly;
+}
+/* h1{
+    text-align: center;
+} */
 
-   
+ /* p{
+    text-align: center;
+}  */
+.contenitore{
+     display: flex;
+    justify-content: center;
+     /* align-items: center; */
+     align-content: space-between;
+
+}
+
+#b-button{
+    background-color: var(--color-bg-black);
+    color: var(--color-color-white);
+
 }
 /* main */
 main section{
-    padding: 60px 0;
+    padding: 20px 0;
 }
 
 .bg-grey{
@@ -79,4 +100,36 @@ main section{
 footer{
     background-color: var(--color-bg-black);
     color: var(--color-color-white);
+}
+
+.list-title{
+    color: var(--color-blue-word)
+}
+.reg{
+    background-color: var(--color-blue-word);
+    color: var(--color-color-white);
+    border-radius: 15px;
+   
+}
+#ita{
+    height: 20px;
+    width: 20px;
+}
+
+.d-flex-column{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+}
+.footer-bottom{
+    border-top: solid 3px;
+}
+
+.foot{
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
 }
