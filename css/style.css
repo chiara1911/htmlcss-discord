@@ -12,13 +12,39 @@
 
 body{
     font-family: 'Noto Sans', sans-serif;
-    background-color: orange;
-    max-width: 1200px;
+    background-color: var(--color-bg-grey)
 }
 
 .debug{
     border: solid 3px black;
 }
 
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+/*header*/
+header{
+    background-image: url(../img/jumbo.png);
+    display: block;
+    background-size: cover;
+    background-repeat: no repeat;
+    height: 400px;
+}
 
+a, a:hover{
+    text-decoration: none;
 
+}
+a{
+    color:var(--color-color-white)
+}
+
+/* main */
+
+/* footer */
+footer{
+    background-color: var(--color-bg-black);
+    color: var(--color-color-white);
+}
