@@ -160,6 +160,9 @@ h4{
 #button-blue{
 margin: 10px;
 }
+.wave-reverse{
+    transform: rotate(180deg);
+}
 /* footer */
 footer{
     background-color: var(--color-bg-black);
