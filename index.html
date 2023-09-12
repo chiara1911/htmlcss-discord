@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Noto+Sans&display=swap"
@@ -12,14 +11,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/style.css">
     <title>Discord</title>
 </head>
 
 <body>
-    <header class="debug ">
-        <nav class="container d-flex debug">
+    <header class="debug" id="hero">
+        <nav class="container d-flex debug justify-between align-center">
             <img src="img/logo.svg" alt="logo-discord">
-            <ul class="d-flex">
+            <ul class="d-flex align-center">
                 <li><a href="">Scarica</a></li>
                 <li><a href="">Perchè Discord</a></li>
                 <li><a href="">Nitro</a></li>
@@ -28,19 +28,32 @@
             </ul>
             <a href="" class="false-button">Accedi</a>
         </nav>
-        <div class="d-flex hero">
+        <div>
+            <div class="container ">
+                <div class="hero-content d-flex justify-center align-center">
             <h1>il tuo posto preferito per giocare</h1>
             
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod ipsa cum porro accusantium
                     asperiores quibusdam natus iste et aut ab.Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Quod ipsa cum porro accusantium asperiores quibusdam natus iste et aut ab.</p>
-        </div>
+                    <div>
+                        <a href="">Scarica per Mac</a>
+                    <a href="">Scarica per Mac</a>
+                    </div>
+                   
+                </div>
+                </div>
     </header>
 
     <main class="debug">
         <section>
-            <div class="container debug float-l"><img src="img/item1.svg" alt=""><h3>Un luogo a invito con tutto lo spazio necessario per parlare</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis voluptatibus non aperiam nisi omnis ducimus magni et harum voluptates dolorem.</p></div>
+            <div class="container debug ">
+                <img src="img/item1.svg" alt="item-1">
+                <div class="section-text">
+                   <h2>Un luogo a invito con tutto lo spazio necessario per parlare</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis voluptatibus non aperiam nisi omnis ducimus magni et harum voluptates dolorem.</p></div>
+                </div>
+            </div>
         </section>
         <section class="bg-grey">
             <div class="container debug"><img src="img/item2.svg" alt=""></div>
@@ -53,7 +66,7 @@
         </section>
 
     </main>
-    <footer class="debug">
+    <footer class="container debug">
         <!-- <section> -->
         <!-- <div class="footer-top"> -->
         <section class="d-flex-test">
@@ -72,7 +85,7 @@
                         </li>
                     </ul>
                     <ul class="d-flex-column debug">
-                        <li class="list-title">Prodotto</li>
+                        <h2></h2>
                         <li>Scarica</li>
                         <li>Scarica</li>
                         <li>Scarica</li>
