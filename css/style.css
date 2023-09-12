@@ -5,7 +5,7 @@
 }
 :root {
 	--color-color-white: #ffffff;
-	--color-bg-grey: #f6f6f6;
+	--color-bg-grey: #EEEEEE;
 	--color-bg-black: #23272a;
 	--color-blue-word: #7289da;
 }
@@ -14,13 +14,11 @@ body{
     font-family: 'Noto Sans', sans-serif;
     background-color: var(--color-bg-grey)
 }
-h3{
-    color: var(--color-blue-word);
-}
 
-.debug{
+
+/* .debug{
     border: solid 3px black;
-}
+} */
 
 .container{
     max-width: 1200px;
@@ -61,6 +59,10 @@ h1{
 .btn-white{   
     background-color: var(--color-color-white);
     color: var(--color-bg-black);    
+}
+.btn-blue{
+    background-color: var(--color-blue-word);
+    color: var(--color-color-white);
 }
 .btn{
     border: solid black 2px;
@@ -113,6 +115,10 @@ header{
 section{
     padding: 20px 0;
 }
+.wave{
+    width: 100%;
+    opacity: 0.03;
+}
 .center{
     display: flex;
     justify-content: center;
@@ -137,8 +143,23 @@ section{
 #last-main{
     text-align: center;
 }
+.ready{
+   width: 50%;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    margin:0 auto;
+    background-size: contain;
+    background-position: top center;
+  
+}
+h4{
+    font-size: 2em;
+}
 
-
+#button-blue{
+margin: 10px;
+}
 /* footer */
 footer{
     background-color: var(--color-bg-black);
@@ -192,12 +213,15 @@ footer{
     width: 100%;
     display: flex;
     border-top: solid 2px var(--color-blue-word);
-    padding: 10px;
+    padding: 20px 10px;
 }
 
 a.icon{
     padding: 0 10px;
 }
-h2{
-color: var(--color-blue-word);
+
+
+.icon-title{
+    color: var(--color-blue-word);
+
 }
