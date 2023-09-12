@@ -43,6 +43,8 @@ body{
 
 a:hover{
     text-decoration: underline;
+    color: var(--color-blue-word);
+    
 }
 a{
     color:var(--color-color-white);
@@ -74,12 +76,31 @@ h1{
     background-color: var(--color-bg-black);
     color: var(--color-color-white);
 }
+
 p{
     font-size: 1.5em;
 }
 h2{
     font-size: 2em;
     padding-bottom: 15px;
+}
+
+/* style download page */
+#download header {
+    background-color: var(--color-bg-black);
+}
+
+.titolo h1{
+padding: 20px;
+}
+#title{
+    padding: 20px;
+    font-size: 1.9em;
+}
+#bt-blu:hover{
+    text-decoration: underline;
+    color: var(--color-color-white);
+
 }
 /*header*/
 header{
@@ -170,6 +191,9 @@ margin: 10px;
 .wave-reverse{
     transform: rotate(180deg);
 }
+
+/* main download page */
+
 /* footer */
 footer{
     background-color: var(--color-bg-black);
