@@ -22,7 +22,7 @@ body{
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 10px 5px;
+    padding: 30px 5px;
   
 }
 
@@ -50,10 +50,14 @@ a{
 ul{
     list-style: none;
 }
+h1{
+    font-size: 3em;
+}
 
 /*header*/
 header{
     display: block;
+    color: var(--color-color-white);
 }
 #hero{
     background-image: url(../img/jumbo.png);
@@ -91,7 +95,7 @@ header{
 
 }
 /* main */
-main section{
+section{
     padding: 20px 0;
 }
 .center{
