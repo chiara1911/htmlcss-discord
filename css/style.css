@@ -72,11 +72,10 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-   
 }
 
 .hero-content{
-    min-height:400px;
+    min-height: 400px;
     display: flex;
    flex-flow: column;
 
@@ -109,10 +108,10 @@ section{
     color: var(--color-color-white);
 }
 
-p .section-text{
+.section-text{
     line-height: 1.8em;
     font-size: 1em;
-    padding:15px 0;
+    padding: 30px 10px;
 }
 .bg-grey{
     background-color: var(--color-bg-grey);
@@ -179,7 +178,8 @@ footer{
     justify-content: space-between;
     width: 100%;
     display: flex;
-    border-top: solid 4px;
+    border-top: solid 4px var(--color-blue-word);
+    padding: 10px;
 }
 h3{
     color: var(--color-blue-word);
