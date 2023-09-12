@@ -30,6 +30,7 @@ body{
     display: flex;
     flex-flow: row wrap;
 }
+
 .justify-between{
     justify-content: space-between;
 
@@ -46,6 +47,7 @@ a{
     color:var(--color-color-white);
     padding: 7px;
     display: inline-block;
+    text-decoration: none;
 }
 ul{
     list-style: none;
@@ -53,7 +55,13 @@ ul{
 h1{
     font-size: 3em;
 }
-
+.btn-white{
+    border: solid black 2px;
+    border-radius: 20px;
+    background-color: var(--color-color-white);
+    color: var(--color-bg-black);
+    padding: 10px;
+}
 /*header*/
 header{
     display: block;
@@ -66,15 +74,11 @@ header{
     width: 100%;
    
 }
-.false-button{
-    border: solid black 2px;
-    border-radius: 20px;
-    background-color: var(--color-color-white);
-    color: var(--color-bg-black);
-    padding: 10px;
-}
+
 .hero-content{
     min-height:400px;
+    display: flex;
+   flex-flow: column;
 
 }
 
