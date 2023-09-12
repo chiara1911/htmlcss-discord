@@ -15,9 +15,9 @@ body{
     background-color: var(--color-bg-grey)
 }
 
-.debug{
+/* .debug{
     border: solid 3px black;
-}
+} */
 
 .container{
     max-width: 1200px;
@@ -55,12 +55,19 @@ ul{
 h1{
     font-size: 3em;
 }
-.btn-white{
+.btn-white{   
+    background-color: var(--color-color-white);
+    color: var(--color-bg-black);    
+}
+.btn{
     border: solid black 2px;
     border-radius: 20px;
-    background-color: var(--color-color-white);
-    color: var(--color-bg-black);
     padding: 10px;
+}
+
+.btn-black{
+    background-color: var(--color-bg-black);
+    color: var(--color-color-white);
 }
 /*header*/
 header{
